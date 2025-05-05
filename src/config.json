@@ -1,0 +1,38 @@
+{
+    "model_paths": {
+        "date": "date",
+        "payee": "payee",
+        "amount_words": "amount_words-20250430T015827Z-1-001/amount_words",
+        "amount_digits": "amount_digits-20250430T015807Z-1-001/amount_digits"
+    },
+    "crop_regions": {
+        "date": [1766, 66, 2342, 192],
+        "payee": [66, 198, 2106, 120],
+        "amount_words": [68, 298, 2300, 210],
+        "amount_digits": [1700, 360, 500, 160]
+    },
+    "directories": {
+        "upload": "uploads",
+        "cropped": "cropped_fields"
+    },
+    "apis": {
+        "process_single": "http://35.193.72.57:8000/process-single",
+        "process_multiple": "http://35.193.72.57:8000/process-folder",
+        "process_folder": "http://35.193.72.57:8000/process-folder-path",
+        "process_s3": "http://35.193.72.57:8000/process-s3"
+    },
+    "ui_settings": {
+        "show_single_image": true,
+        "show_multiple_images": true,
+        "show_folder_processing": true,
+        "show_s3_processing": true,
+        "theme": {
+            "primary_color": "#1976D2",
+            "secondary_color": "#424242",
+            "accent_color": "#82B1FF"
+        },
+        "company_name": "Cheque Processor",
+        "user_name": "Shivanshu",
+        "logo_url": "/logo.png"
+    }
+}
